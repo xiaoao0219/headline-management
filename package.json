@@ -33,6 +33,9 @@
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
+  "rules": {
+    "no-unused-vars": "off"
+  },
   "lint-staged": {
     "*.{js,jsx,vue}": [
       "vue-cli-service lint",
